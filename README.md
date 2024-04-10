@@ -8,13 +8,13 @@ The script aims to convert log files into comprehensive statistics, encompassing
 
 In log_generator user can define filter rules through var: VB_MANAGER_TEXT_TO_FIND
 Current rules are set to look for those lines in log file:
-             
-'2023-10-03 11:00:17,057 - vb_manager.am - info - PFT.9f779.1 - Action completed.',
-'2023-10-03 11:00:17,288 - vb_manager.mm - info - PFT.9f779.2 - ActionPoint(id: 'C0309') started.',
-'2023-10-03 11:00:17,288 - vb_manager.am - Action - waiting - help',
-'2023-10-03 14:44:48,989 - vb_manager.am - info - Action aborted.',
-'2023-10-03 12:02:00,397 - vb_manager.action - info - 5 CorrectModule - Position correct.',
-'2023-10-03 12:02:00,397 - vb_manager.action - error - Position incorrect because position sensor (tr) is not active',
+
+'2023-10-03 11:00:17,057 - vb_manager.am - info - PFT.9f779.1 - Action completed.'
+'2023-10-03 11:00:17,288 - vb_manager.mm - info - PFT.9f779.2 - ActionPoint(id: 'C0309') started.'
+'2023-10-03 11:00:17,288 - vb_manager.am - Action - waiting - help'
+'2023-10-03 14:44:48,989 - vb_manager.am - info - Action aborted.'
+'2023-10-03 12:02:00,397 - vb_manager.action - info - 5 CorrectModule - Position correct.'
+'2023-10-03 12:02:00,397 - vb_manager.action - error - Position incorrect because position sensor (tr) is not active'
 '2023-10-03 12:02:00,397 - vb_manager.action - Departing failed'
 
 ## Processing
