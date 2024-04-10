@@ -8,9 +8,9 @@ The script aims to convert log files into comprehensive statistics, encompassing
 
 In log_generator user can define filter rules through var: VB_MANAGER_TEXT_TO_FIND
 Current rules are set to look for those lines in log file:
-
-'2023-10-03 11:00:17,057 - vb_manager.am - info - PFT.9f779.1 - Action completed.'
-'2023-10-03 11:00:17,288 - vb_manager.mm - info - PFT.9f779.2 - ActionPoint(id: 'C0309') started.'
+             
+'2023-10-03 11:00:17,057 - vb_manager.am - info - PFT.9f779.1 - Action completed.'
+'2023-10-03 11:00:17,288 - vb_manager.mm - info - PFT.9f779.2 - ActionPoint(id: 'C0309') started.'
 '2023-10-03 11:00:17,288 - vb_manager.am - Action - waiting - help'
 '2023-10-03 14:44:48,989 - vb_manager.am - info - Action aborted.'
 '2023-10-03 12:02:00,397 - vb_manager.action - info - 5 CorrectModule - Position correct.'
@@ -43,30 +43,30 @@ log_comparer._create_single_ap_dataframe_template
 Data between brackets () defines when should values in AP dataframe be set:
 
 Example:
-DOCK_TRY(Position incorrect)
+    DOCK_TRY(Position incorrect)
 if found lines "Position incorrect" in log line, increment by 1 an ACTION_ERROR value in Ap dataframe
 
-waiting, aborted 			  -> ACTION ERROR +1
-position incorrect 			  -> DOCK_TRY +1
-position correct 			  -> DOCK_CORRECT +1
-Departing failed 			  -> UNDOCK_INCORRECT +1
+    waiting, aborted 			  -> ACTION ERROR +1
+    position incorrect 			  -> DOCK_TRY +1
+    position correct 			  -> DOCK_CORRECT +1
+    Departing failed 			  -> UNDOCK_INCORRECT +1
 
 ### Processing intermediate data 
 
 After filtered log file was processed, Dataframe of all found AP looks like:
 
-Robot	TIME_START	TIME_END	AP_NAME	ACTION_ERROR(waiting, aborted)	DOCK_TRY(Position incorrect)	DOCK_CORRECT(Position correct)	UNDOCK_INCORRECT(Departing failed)
-robotone	2023-10-03 11:00:17	2023-10-03 11:00:17	C0309	1	3	1	0
-robotone	2023-10-03 11:00:17	2023-10-03 11:00:17	R2D2	1	3	0	0
-robotone	2023-10-03 11:00:17	2023-10-03 11:00:17	SLAVE0	0	2	1	0
-robotone	2023-10-03 11:00:17	2023-10-03 11:00:17	IPS0	0	2	1	0
-robotone	2023-10-03 11:00:17	2023-10-03 11:00:17	C3P0	0	2	1	0
-robottwo	2023-10-03 11:00:17	2023-10-03 11:00:17	C0309	2	3	0	1
-robottwo	2023-10-03 11:00:17	2023-10-03 11:00:17	C0309	2	3	0	1
-robottwo	2023-10-03 11:00:17	2023-10-03 11:00:17	IPS0	2	3	0	1
-robottwo	2023-10-03 11:00:17	2023-10-03 11:00:17	C0309	0	2	1	0
-robottwo	2023-10-03 11:00:17	2023-10-03 11:00:17	IPS0	2	2	0	0
-robottwo	2023-10-03 11:00:17	2023-10-03 11:00:17	ATAT0	0	2	1	0
+    Robot	TIME_START	TIME_END	AP_NAME	ACTION_ERROR(waiting, aborted)	DOCK_TRY(Position incorrect)	DOCK_CORRECT(Position correct)	UNDOCK_INCORRECT(Departing failed)
+    robotone	2023-10-03 11:00:17	2023-10-03 11:00:17	C0309	1	3	1	0
+    robotone	2023-10-03 11:00:17	2023-10-03 11:00:17	R2D2	1	3	0	0
+    robotone	2023-10-03 11:00:17	2023-10-03 11:00:17	SLAVE0	0	2	1	0
+    robotone	2023-10-03 11:00:17	2023-10-03 11:00:17	IPS0	0	2	1	0
+    robotone	2023-10-03 11:00:17	2023-10-03 11:00:17	C3P0	0	2	1	0
+    robottwo	2023-10-03 11:00:17	2023-10-03 11:00:17	C0309	2	3	0	1
+    robottwo	2023-10-03 11:00:17	2023-10-03 11:00:17	C0309	2	3	0	1
+    robottwo	2023-10-03 11:00:17	2023-10-03 11:00:17	IPS0	2	3	0	1
+    robottwo	2023-10-03 11:00:17	2023-10-03 11:00:17	C0309	0	2	1	0
+    robottwo	2023-10-03 11:00:17	2023-10-03 11:00:17	IPS0	2	2	0	0
+    robottwo	2023-10-03 11:00:17	2023-10-03 11:00:17	ATAT0	0	2	1	0
 
 ### Processing statistics data
 
@@ -88,24 +88,24 @@ log_data_interpretation._fill_inserted_ap_frame()
 
 Current rules are set to:
 
-found ACTION_ERROR 	  	  -> ACTION ERROR + 1
-DOCK_TRY>=3 or UNDOCK_INCORRECT>0 	  -> DOCK_ERROR + 1
-found ACTION_ERROR or found DOCK_ERROR    -> FAILURE() + 1
-not found ACTION_ERROR or not found DOCK_ERROR   -> SUCCES() + 1
+    found ACTION_ERROR 	  	  -> ACTION ERROR + 1
+    DOCK_TRY>=3 or UNDOCK_INCORRECT>0 	  -> DOCK_ERROR + 1
+    found ACTION_ERROR or found DOCK_ERROR    -> FAILURE() + 1
+    not found ACTION_ERROR or not found DOCK_ERROR   -> SUCCES() + 1
 
 ## Output
 
 Example statistics dataframe:
 
-AP_NAME()	SUCC_RATE()	SUCCESS()	FAILURE()	ACTION_ERROR(ACTION_ERROR, DOCK_CORRECT)	DOCK_ERROR(DOCK_TRY, UNDOCK_INCORRECT)
-C0309	43.0	3	4	4	4
-R2D2	0.0	0	1	1	1
-SLAVE0	100.0	1	0	0	0
-IPS0	60.0	3	2	2	1
-C3P0	40.0	2	3	3	1
-ATAT0	67.0	2	1	1	0
-XWING0	50.0	2	2	2	1
-TIE0	100.0	1	0	0	0
+    AP_NAME()	SUCC_RATE()	SUCCESS()	FAILURE()	ACTION_ERROR(ACTION_ERROR, DOCK_CORRECT)	DOCK_ERROR(DOCK_TRY, UNDOCK_INCORRECT)
+    C0309	43.0	3	4	4	4
+    R2D2	0.0	0	1	1	1
+    SLAVE0	100.0	1	0	0	0
+    IPS0	60.0	3	2	2	1
+    C3P0	40.0	2	3	3	1
+    ATAT0	67.0	2	1	1	0
+    XWING0	50.0	2	2	2	1
+    TIE0	100.0	1	0	0	0
 
 ### Links
 
