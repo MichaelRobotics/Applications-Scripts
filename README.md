@@ -40,7 +40,7 @@ Rules for creating Action points from filtered log file are located in:
     'DOCK_CORRECT(Position correct)': [0],
     'UNDOCK_INCORRECT(Departing failed)': [0]
 
-Data between brackets () defines which words in line from filtered log file corresponds to frame updates in AP dataframe:
+Data between brackets () defines which words in line from filtered log file corresponds to frame updates in AP dataframe.
 Example:
 
     DOCK_TRY(Position incorrect)
