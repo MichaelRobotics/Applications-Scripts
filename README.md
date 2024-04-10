@@ -22,13 +22,13 @@ Current rules are set up to look for those lines in log file:
 ### Processing pipeline
 
 1. get log from robot -> 
-2. filter for specific lines and make new file which include only filtered lines -> 
-3. create action point frame and fill it with data from filtered file, accordingly to set rules ->
+2. filter for specific lines and make new file which includes only filtered lines -> 
+3. create action point frame and fill it with data from filtered file, accordingly to actual rules ->
 4. include action point data into statistics
 
 ### Rules of processing single AP
 
-Rules of creating Action points from filtered log file are located in:
+Rules for creating Action points from filtered log file are located in:
 *log_comparer._create_single_ap_dataframe_template*
 
     'Robot': [cls.robot_id],
@@ -54,7 +54,7 @@ if found lines "Position incorrect" in filtered log file line, value of DOCK_TRY
 
 ### Processing intermediate data 
 
-After filtered log file was processed, dataframe of all found AP is generated:
+After filtered log file was processed, dataframe consisting of all found AP is generated:
 
     Robot	TIME_START	TIME_END	AP_NAME	ACTION_ERROR(waiting, aborted)	DOCK_TRY(Position incorrect)	DOCK_CORRECT(Position correct)	UNDOCK_INCORRECT(Departing failed)
     robotone	2023-10-03 11:00:17	2023-10-03 11:00:17	C0309	1	3	1	0
@@ -72,7 +72,7 @@ After filtered log file was processed, dataframe of all found AP is generated:
 ### Processing statistics data
 
 Every single AP is processed and added into statistics dataframe.
-Rules of creating statistics dataframe from filtered log file are located in:
+Rules for creating statistics dataframe from filtered log file location:
 *log_data_interpretation._create_ap_df_frame()*
 
     'AP_NAME()': name,
@@ -82,10 +82,10 @@ Rules of creating statistics dataframe from filtered log file are located in:
     'ACTION_ERROR(ACTION_ERROR, DOCK_CORRECT)': action_error,
     'DOCK_ERROR(DOCK_TRY, UNDOCK_INCORRECT)': dock_error
 
-Data between brackets () defines what frames from AP dataframe should be processed, when updating
+Data between brackets () defines which frames from AP dataframe should be processed, when updating
 statistics dataframe with single AP data.
 
-Rules of processing and calculating statistics from single AP data are located in:
+Rules for processing and calculating statistics based on single AP data are located in:
 *log_data_interpretation._fill_inserted_ap_frame()*
 
 Current rules are set to:
