@@ -38,10 +38,11 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
-    - name: Build and Push Docker Image
-      uses: mr-smithers-excellent/docker-build-push@v4
-      with:
-        image: robclusterdev/clusterimages
-        registry: docker.io
-        username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
+    - name: Log in to Docker Hub
+      run: echo "docker login --username ${{ secrets.DOCKER_USERNAME }} --password ${{ secrets.DOCKER_PASSWORD }}"
+
+    - name: Build the Docker image
+      run: docker build -t docker.io/robclusterdev/clusterimages:main-2b56f8e .
+
+    - name: Push the Docker image
+      run: docker push docker.io/robclusterdev/clusterimages:main-2b56f8e
