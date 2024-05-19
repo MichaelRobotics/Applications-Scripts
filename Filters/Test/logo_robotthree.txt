@@ -1,0 +1,447 @@
+Garbage
+Garbage
+Garbage
+Garbage
+'2023-10-03 11:00:17,288 - vb_manager.mm - info - PFT.9f779.2 - ActionPoint(id: 'C0309') started.'
+Garbage
+Garbage
+Garbage
+Garbage
+'2023-10-03 12:02:00,397 - vb_manager.action - error - Position incorrect because position sensor (tr) is not active'
+Garbage
+Garbage
+Garbage 
+'2023-10-03 12:02:00,397 - vb_manager.action - error - Position incorrect because position sensor (tr) is not active'
+Garbage
+Garbage
+Garbage 
+'2023-10-03 12:02:00,397 - vb_manager.action - error - Position incorrect because position sensor (tr) is not active'
+Garbage
+Garbage
+Garbage
+'2023-10-03 14:44:48,989 - vb_manager.am - info - Action aborted.' 
+'2023-10-03 11:00:17,288 - vb_manager.am - Action - waiting - help'
+Garbage
+Garbage
+Garbage
+Garbage
+'2023-10-03 12:02:00,397 - vb_manager.action - Departing failed'
+Garbage
+Garbage
+'2023-10-03 11:00:17,057 - vb_manager.am - info - PFT.9f779.1 - Action completed.'
+--------ACTION-AP----------
+'2023-10-03 11:00:17,288 - vb_manager.mm - info - PFT.9f779.2 - ActionPoint(id: 'XWING0') started.'
+Garbage
+Garbage
+Garbage
+Garbage
+'2023-10-03 12:02:00,397 - vb_manager.action - error - Position incorrect because position sensor (tr) is not active'
+Garbage
+Garbage
+Garbage 
+'2023-10-03 12:02:00,397 - vb_manager.action - error - Position incorrect because position sensor (tr) is not active'
+Garbage
+Garbage
+Garbage 
+Garbage
+'2023-10-03 12:02:00,397 - vb_manager.action - info - 5 CorrectModule - Position correct.'
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage
+'2023-10-03 11:00:17,057 - vb_manager.am - info - PFT.9f779.1 - Action completed.'
+-----------ACTION--POINT-------
+'2023-10-03 11:00:17,288 - vb_manager.mm - info - PFT.9f779.2 - ActionPoint(id: 'ATAT0') started.'
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage 
+'2023-10-03 12:02:00,397 - vb_manager.action - error - Position incorrect because position sensor (tr) is not active'
+Garbage
+Garbage
+Garbage 
+'2023-10-03 12:02:00,397 - vb_manager.action - error - Position incorrect because position sensor (tr) is not active'
+Garbage
+Garbage
+Garbage
+'2023-10-03 14:44:48,989 - vb_manager.am - info - Action aborted.' 
+'2023-10-03 11:00:17,288 - vb_manager.am - Action - waiting - help'
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage
+'2023-10-03 11:00:17,057 - vb_manager.am - info - PFT.9f779.1 - Action completed.'
+--------ACTION-AP----------
+'2023-10-03 11:00:17,288 - vb_manager.mm - info - PFT.9f779.2 - ActionPoint(id: 'IPS0') started.'
+Garbage
+Garbage
+Garbage
+Garbage
+'2023-10-03 12:02:00,397 - vb_manager.action - error - Position incorrect because position sensor (tr) is not active'
+Garbage
+Garbage
+Garbage 
+'2023-10-03 12:02:00,397 - vb_manager.action - error - Position incorrect because position sensor (tr) is not active'
+Garbage
+Garbage
+Garbage 
+Garbage
+'2023-10-03 12:02:00,397 - vb_manager.action - info - 5 CorrectModule - Position correct.'
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage
+'2023-10-03 11:00:17,057 - vb_manager.am - info - PFT.9f779.1 - Action completed.'
+-----------ACTION--POINT-------
+'2023-10-03 11:00:17,288 - vb_manager.mm - info - PFT.9f779.2 - ActionPoint(id: 'C3P0') started.'
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage 
+'2023-10-03 12:02:00,397 - vb_manager.action - error - Position incorrect because position sensor (tr) is not active'
+Garbage
+Garbage
+Garbage 
+'2023-10-03 12:02:00,397 - vb_manager.action - error - Position incorrect because position sensor (tr) is not active'
+Garbage
+Garbage
+Garbage
+'2023-10-03 14:44:48,989 - vb_manager.am - info - Action aborted.' 
+'2023-10-03 11:00:17,288 - vb_manager.am - Action - waiting - help'
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage
+'2023-10-03 11:00:17,057 - vb_manager.am - info - PFT.9f779.1 - Action completed.'
+--------ACTION-AP----------
+'2023-10-03 11:00:17,288 - vb_manager.mm - info - PFT.9f779.2 - ActionPoint(id: 'TIE0') started.'
+Garbage
+Garbage
+Garbage
+Garbage
+'2023-10-03 12:02:00,397 - vb_manager.action - error - Position incorrect because position sensor (tr) is not active'
+Garbage
+Garbage
+Garbage 
+'2023-10-03 12:02:00,397 - vb_manager.action - error - Position incorrect because position sensor (tr) is not active'
+Garbage
+Garbage
+Garbage 
+Garbage
+'2023-10-03 12:02:00,397 - vb_manager.action - info - 5 CorrectModule - Position correct.'
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage
+'2023-10-03 11:00:17,057 - vb_manager.am - info - PFT.9f779.1 - Action completed.'
+--------ACTION-AP----------
+'2023-10-03 11:00:17,288 - vb_manager.mm - info - PFT.9f779.2 - ActionPoint(id: 'ATAT0') started.'
+Garbage
+Garbage
+Garbage
+Garbage
+'2023-10-03 12:02:00,397 - vb_manager.action - error - Position incorrect because position sensor (tr) is not active'
+Garbage
+Garbage
+Garbage 
+'2023-10-03 12:02:00,397 - vb_manager.action - error - Position incorrect because position sensor (tr) is not active'
+Garbage
+Garbage
+Garbage 
+Garbage
+'2023-10-03 12:02:00,397 - vb_manager.action - info - 5 CorrectModule - Position correct.'
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage
+'2023-10-03 11:00:17,057 - vb_manager.am - info - PFT.9f779.1 - Action completed.'
+asdsd
+--------ACTION-AP----------
+'2023-10-03 11:00:17,288 - vb_manager.mm - info - PFT.9f779.2 - ActionPoint(id: 'C3P0') started.'
+Garbage
+Garbage
+Garbage
+Garbage
+'2023-10-03 12:02:00,397 - vb_manager.action - error - Position incorrect because position sensor (tr) is not active'
+Garbage
+Garbage
+Garbage 
+'2023-10-03 12:02:00,397 - vb_manager.action - error - Position incorrect because position sensor (tr) is not active'
+Garbage
+Garbage
+Garbage 
+'2023-10-03 12:02:00,397 - vb_manager.action - error - Position incorrect because position sensor (tr) is not active'
+Garbage
+Garbage
+Garbage
+'2023-10-03 14:44:48,989 - vb_manager.am - info - Action aborted.' 
+'2023-10-03 11:00:17,288 - vb_manager.am - Action - waiting - help'
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage
+'2023-10-03 11:00:17,057 - vb_manager.am - info - PFT.9f779.1 - Action completed.'
+--------ACTION-AP----------
+asd
+'2023-10-03 11:00:17,288 - vb_manager.mm - info - PFT.9f779.2 - ActionPoint(id: 'IPS0') started.'
+Garbage
+Garbage
+Garbage
+Garbage
+'2023-10-03 12:02:00,397 - vb_manager.action - error - Position incorrect because position sensor (tr) is not active'
+Garbage
+Garbage
+Garbage 
+'2023-10-03 12:02:00,397 - vb_manager.action - error - Position incorrect because position sensor (tr) is not active'
+Garbage
+Garbage
+Garbage 
+Garbage
+Garbage
+'2023-10-03 12:02:00,397 - vb_manager.action - info - 5 CorrectModule - Position correct.'
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage
+'2023-10-03 11:00:17,057 - vb_manager.am - info - PFT.9f779.1 - Action completed.'
+--------ACTION-AP----------
+'2023-10-03 11:00:17,288 - vb_manager.mm - info - PFT.9f779.2 - ActionPoint(id: 'XWING0') started.'
+Garbage
+Garbage
+Garbage
+Garbage
+'2023-10-03 12:02:00,397 - vb_manager.action - error - Position incorrect because position sensor (tr) is not active'
+Garbage
+Garbage
+Garbage 
+'2023-10-03 12:02:00,397 - vb_manager.action - error - Position incorrect because position sensor (tr) is not active'
+Garbage
+Garbage
+Garbage 
+Garbage
+Garbage
+'2023-10-03 12:02:00,397 - vb_manager.action - info - 5 CorrectModule - Position correct.'
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage
+'2023-10-03 11:00:17,057 - vb_manager.am - info - PFT.9f779.1 - Action completed.'
+-----------ACTION--POINT-------
+'2023-10-03 11:00:17,288 - vb_manager.mm - info - PFT.9f779.2 - ActionPoint(id: 'C0309') started.'
+Garbage
+Garbage
+Garbage
+Garbage
+'2023-10-03 12:02:00,397 - vb_manager.action - error - Position incorrect because position sensor (tr) is not active'
+Garbage
+Garbage
+Garbage 
+'2023-10-03 12:02:00,397 - vb_manager.action - error - Position incorrect because position sensor (tr) is not active'
+Garbage
+Garbage
+Garbage 
+Garbage
+'2023-10-03 12:02:00,397 - vb_manager.action - info - 5 CorrectModule - Position correct.'
+Garbage
+Garbage
+Garbage
+Garbage
+Garbage
+'2023-10-03 11:00:17,057 - vb_manager.am - info - PFT.9f779.1 - Action completed.'
+
+
+TEST:
+
+IN SINGLE AP (1) C0309
+- TIME_START = 2023-10-03 11:00:17
+- TIME_END = 2023-10-03 11:00:17,057
+- AP_NAME = C0309
+- DOCK_TRY = 3
+- DOCK_CORRECT = 0
+- UNDOCK_INCORRECT = 1
+- ACTION_ERROR = 2
+IN SINGLE AP (2) C0309
+- TIME_START = 2023-10-03 11:00:17
+- TIME_END = 2023-10-03 11:00:17,057
+- AP_NAME = C0309
+- DOCK_TRY = 3
+- DOCK_CORRECT = 0
+- UNDOCK_INCORRECT = 1
+- ACTION_ERROR = 2
+IN SINGLE AP (3) ATAT0
+- TIME_START = 2023-10-03 11:00:17
+- TIME_END = 2023-10-03 11:00:17,057
+- AP_NAME = ATAT0
+- DOCK_TRY = 2
+- DOCK_CORRECT = 0
+- UNDOCK_INCORRECT = 0
+- ACTION_ERROR = 2
+IN SINGLE AP (4) IPS0
+- TIME_START = 2023-10-03 11:00:17
+- TIME_END = 2023-10-03 11:00:17,057
+- AP_NAME = IPS0
+- DOCK_TRY = 2
+- DOCK_CORRECT = 1
+- UNDOCK_INCORRECT = 0
+- ACTION_ERROR = 0
+IN SINGLE AP (5) C3P0
+- TIME_START = 2023-10-03 11:00:17
+- TIME_END = 2023-10-03 11:00:17,057
+- AP_NAME = C3P0
+- DOCK_TRY = 2
+- DOCK_CORRECT = 0
+- UNDOCK_INCORRECT = 0
+- ACTION_ERROR = 2
+IN SINGLE AP (6) TIE0
+- TIME_START = 2023-10-03 11:00:17
+- TIME_END = 2023-10-03 11:00:17,057
+- AP_NAME = TIE0
+- DOCK_TRY = 2
+- DOCK_CORRECT = 1
+- UNDOCK_INCORRECT = 0
+- ACTION_ERROR = 0
+IN SINGLE AP (7) ATAT0
+- TIME_START = 2023-10-03 11:00:17
+- TIME_END = 2023-10-03 11:00:17,057
+- AP_NAME = ATAT0
+- DOCK_TRY = 2
+- DOCK_CORRECT = 1
+- UNDOCK_INCORRECT = 0
+- ACTION_ERROR = 0
+IN SINGLE AP (8) C3P0
+- TIME_START = 2023-10-03 11:00:17
+- TIME_END = 2023-10-03 11:00:17,057
+- AP_NAME = C3P0
+- DOCK_TRY = 3
+- DOCK_CORRECT = 0
+- UNDOCK_INCORRECT = 0
+- ACTION_ERROR = 2
+IN SINGLE AP (9) IPS0
+- TIME_START = 2023-10-03 11:00:17
+- TIME_END = 2023-10-03 11:00:17,057
+- AP_NAME = IPS0
+- DOCK_TRY = 2
+- DOCK_CORRECT = 1
+- UNDOCK_INCORRECT = 0
+- ACTION_ERROR = 0
+IN SINGLE AP (10) XWING0
+- TIME_START = 2023-10-03 11:00:17
+- TIME_END = 2023-10-03 11:00:17,057
+- AP_NAME = XWING0
+- DOCK_TRY = 2
+- DOCK_CORRECT = 1
+- UNDOCK_INCORRECT = 0
+- ACTION_ERROR = 0
+IN SINGLE AP (11) C0309
+- TIME_START = 2023-10-03 11:00:17
+- TIME_END = 2023-10-03 11:00:17,057
+- AP_NAME = C0309
+- DOCK_TRY = 2
+- DOCK_CORRECT = 1
+- UNDOCK_INCORRECT = 0
+- ACTION_ERROR = 0
+
+IN DATASET (3 same logs) C0309
+
+- AP_NAME() = C0309
+- SUCC_RATE() = 43
+- SUCCES() = 3
+- FAILURE() = 4
+- ACTION_ERROR() = 3
+- DOCK_ERROR() = 3
+
+IN DATASET (3 same logs) IPS0
+
+- AP_NAME() = IPS0
+- SUCC_RATE() = 60
+- SUCCES() = 3
+- FAILURE() = 2
+- ACTION_ERROR() = 2
+- DOCK_ERROR() = 1
+
+IN DATASET (3 same logs) ATAT0
+
+- AP_NAME() = ATAT0
+- SUCC_RATE() = 66.6
+- SUCCES() = 2
+- FAILURE() = 1
+- ACTION_ERROR() = 1
+- DOCK_ERROR() = 0
+
+IN DATASET (3 same logs) C3P0
+
+- AP_NAME() = C3P0
+- SUCC_RATE() = 40
+- SUCCES() = 2
+- FAILURE() = 3
+- ACTION_ERROR() = 3
+- DOCK_ERROR() = 1
+
+IN DATASET (3 same logs) XWING0
+
+- AP_NAME() = XWING0
+- SUCC_RATE() = 50
+- SUCCES() = 2
+- FAILURE() = 2
+- ACTION_ERROR() = 2
+- DOCK_ERROR() = 1
+
+IN DATASET (3 same logs) TIE0
+
+- AP_NAME() = TIE0
+- SUCC_RATE() = 100
+- SUCCES() = 1
+- FAILURE() = 0
+- ACTION_ERROR() = 0
+- DOCK_ERROR() = 0
+
+IN DATASET (3 same logs) R2D20
+
+- AP_NAME() = R2D20
+- SUCC_RATE() = 0
+- SUCCES() = 0
+- FAILURE() = 1
+- ACTION_ERROR() = 1
+- DOCK_ERROR() = 1
+
+IN DATASET (3 same logs) SLAVE0
+
+- AP_NAME() = SLAVE0
+- SUCC_RATE() = 100
+- SUCCES() = 1
+- FAILURE() = 0
+- ACTION_ERROR() = 0
