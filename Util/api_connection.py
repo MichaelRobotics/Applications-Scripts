@@ -10,7 +10,7 @@ requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
 
 # Fleet Address
 FLEET_PORT = ":443"
-FLEET_IP = "192.168.1.78"
+FLEET_IP = "####"
 # Robot ID's
 ROBOT_ONE_ID = "robotone"
 ROBOT_TWO_ID = "robottwo"
@@ -20,9 +20,9 @@ ROBOT_ONE_IP = "robotone"
 ROBOT_TWO_IP = "robotone"
 ROBOT_THREE_IP = "robotone"
 # Robot Usernames
-ROBOT_ONE_USERNAME = "vbmichal2"
-ROBOT_TWO_USERNAME = "dev"
-ROBOT_THREE_USERNAME = "vb"
+ROBOT_ONE_USERNAME = "####"
+ROBOT_TWO_USERNAME = "####"
+ROBOT_THREE_USERNAME = "####"
 # Robot Passwords
 ROBOT_ONE_PASSWORD = ""
 ROBOT_TWO_PASSWORD = ""
@@ -82,10 +82,10 @@ class ApiConnection:
         #    print(active_robot_ip_list)
         #    print(active_robot_id_list)
         ########################################################
-            active_pc_username_list = ["vbmichal2", "dev", "laptopdev"]
-            active_robot_ip_list = ["192.168.1.78", "192.168.1.73", "192.168.1.21"]
+            active_pc_username_list = ["####", "####", "####"]
+            active_robot_ip_list = ["####", "####", "####"]
             active_robot_id_list = ["robotone", "robottwo", "robotthree"]
-            actual_password_list = ["vbrobot123", "vbrobot123", "vbrobot123"]
+            actual_password_list = ["####", "####", "####"]
             return active_robot_ip_list, active_robot_id_list, active_pc_username_list, actual_password_list
         except json.JSONDecodeError as e:
             # Handle JSON parsing errors
